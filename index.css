@@ -116,7 +116,7 @@ p {
 
 
 
-.photo.menu {
+.photo.guide {
   width: 70%;
   margin-top: 10%; /* Add a 10% bottom margin to create a gap */
   margin: 0 auto; /* Center the element horizontally */
@@ -167,11 +167,11 @@ p {
 }
 
 /* Styles for the h1 and p in the specific section */
-.photo.menu h1 {
+.photo.guide h1 {
   font-size: 40px;
 }
 
-.photo.menu p {
+.photo.guide p {
   font-size: 24px;
 }
 
