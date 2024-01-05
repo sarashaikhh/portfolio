@@ -1,0 +1,175 @@
+body
+{
+    background-color: #191716;
+    color: white; 
+    justify-content: center;
+
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 15px;
+  z-index: 3; /* Set a higher z-index to ensure the nav is above the banner */
+
+}
+
+.nav a {
+      content: '\2022'; /* Unicode character for a bullet point */
+  
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+
+
+.copywrite {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.copywrite a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+
+
+
+h1 {
+  font-size: 128px;
+  font-family: 'Calibri', sans-serif;
+  text-align: center;
+}
+
+
+
+
+p {
+  font-size: 40px;
+  font-family: 'Calibri', sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+.banner {
+  position: relative; /* Set the positioning context for absolute positioning */
+
+}
+
+.banner h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  z-index: 2;
+  white-space: nowrap; /* Ensure the text stays on one line */
+}
+
+.banner p {
+  position: absolute; /* Position the text elements absolutely within the banner */
+  top: 65%; /* Adjust the vertical position */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  z-index: 2; /* Ensure the text is above the image */
+}
+
+.banner .photo img {
+  margin-top: 5%;
+  width: 80%; /* Set the width of the image */
+  display: block; /* Make the image a block element to center it */
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+  z-index: 1; /* Ensure the image is below the text */
+}
+
+
+
+
+
+.photo.menu {
+  width: 70%;
+  margin-top: 10%; /* Add a 10% bottom margin to create a gap */
+  margin: 0 auto; /* Center the element horizontally */
+  text-align: center; /* Center the text content within the div */
+}
+
+/* Your existing styles for the image grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.image-link img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-link img:hover {
+  transform: scale(1.1);
+}
+
+.image-link {
+  display: block;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+/* Styles for the h1 and p in the specific section */
+.photo.menu h1 {
+  font-size: 40px;
+}
+
+.photo.menu p {
+  font-size: 24px;
+}
+
+
+.description {
+  width: 55%;
+  margin: 0 auto; /* Center the element horizontally */
+}
+
+.description p {
+  font-size: 16px; /* Adjust the font size as needed */
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}

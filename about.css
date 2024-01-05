@@ -1,0 +1,117 @@
+body
+{
+    background-color: #191716;
+    color: white; 
+    justify-content: center;
+
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 15px;
+  z-index: 3; /* Set a higher z-index to ensure the nav is above the banner */
+
+}
+
+.nav a {
+      content: '\2022'; /* Unicode character for a bullet point */
+  
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+
+
+.copywrite {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.copywrite a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+p {
+  font-size: 16px;
+  font-family: 'Calibri', sans-serif;
+  text-align: left; /* Align text to the left */
+}
+
+p1 {
+  font-size: 12px;
+  font-family: 'Calibri', sans-serif;
+  font-style: italic;
+  text-align: left; /* Align text to the left */
+}
+
+
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 30%;
+  margin-right: 20px; /* Adjust the spacing between the photo and text box */
+  margin-bottom: 10%;
+}
+
+.text {
+  width: 20%; /* Adjust the width as needed */
+  text-align: left; /* Align text to the left */
+  font-family: 'Calibri', sans-serif;
+}
+
+/* To ensure the photo and text box don't exceed the height of each other */
+.photo img,
+.text {
+  max-width: 100%;
+}
+
+/* Centering the text box vertically within the container */
+.intro {
+  flex-direction: row; /* Display content in a row */
+}
+
+
+.title{
+  margin-top: 10%;
+  margin-left: 20%;
+  font-family: 'Calibri', sans-serif;
+  font-style: italic;
+}
+
+.contact {
+  position: fixed;
+  margin-top: 200px;
+  margin-left: 200px;
+  text-align: left; /* Align text within the contact div to the left */
+}
