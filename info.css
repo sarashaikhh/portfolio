@@ -25,6 +25,15 @@ body
 }
 
 
+
+.title{
+  font-family: 'Calibri', sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
 .bottom-nav {
   position: fixed;
   bottom: 0;
@@ -39,7 +48,6 @@ body
   margin-right: 10px;
   font-size: 16px;
 }
-
 
 
 
@@ -59,6 +67,26 @@ body
 }
 
 
+
+
+.contact-bar {
+  margin-top: 5%; /* Adjust the distance from the bottom */
+  margin-left: 5%; /* Adjust the distance from the right */
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Calibri', sans-serif;
+  margin-bottom: 2px; /* Add space between links */
+}
+
+
+
 p {
   font-size: 16px;
   font-family: 'Calibri', sans-serif;
@@ -73,6 +101,7 @@ p1 {
 }
 
 
+
 .intro {
   display: flex;
   justify-content: center;
@@ -82,7 +111,7 @@ p1 {
 
 .photo {
   width: 30%;
-  margin-right: 20px; /* Adjust the spacing between the photo and text box */
+  margin-right: 5%; /* Adjust the spacing between the photo and text box */
   margin-bottom: 10%;
 }
 
@@ -102,31 +131,3 @@ p1 {
 .intro {
   flex-direction: row; /* Display content in a row */
 }
-
-
-.title{
-  font-family: 'Calibri', sans-serif;
-  font-style: italic;
-  text-align: center;
-  margin-top: 50px;
-}
-
-
-
-
-.contact-bar {
-  bottom: 0;
-  left: 50%;
-  padding: 15px;
-  background-color: #191716;
-  display: flex;
-  justify-content: space-around;
-  width: 70%; /* Adjust the width as needed */
-}
-
-.contact-bar a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px; /* Adjust the font size as needed */
-}
-
