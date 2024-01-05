@@ -125,16 +125,17 @@ p {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Updated to auto-fill */
   gap: 10px;
   padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto; /* Center the grid horizontally */
+
 }
 
-.grid-container {
+.grid-item {
   text-align: center;
 }
+
 
 .grid-item img {
   display: block;
@@ -158,6 +159,11 @@ p {
   display: block;
   overflow: hidden;
   border-radius: 0;
+}
+
+.image-grid .grid-item:nth-last-child(-n+2) {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Styles for the h1 and p in the specific section */

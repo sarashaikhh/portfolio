@@ -85,7 +85,7 @@ p {
     font-family: 'Calibri', sans-serif;
     font-style: italic;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10%;
   }
   
 
@@ -229,11 +229,18 @@ video {
 }
 
 .photo-quote p{
+  font-size: smaller;
   text-align: left;
   margin: 0 auto;
-  margin-right: 17%;
-  margin-bottom: 2%;
   width: 35%;
+  margin-bottom: 5%;
+}
+
+.interactive-quote p{
+  font-size: smaller;
+  text-align: left;
+  margin: 0 auto;
+  width: 30%;
 }
 
 iframe {
