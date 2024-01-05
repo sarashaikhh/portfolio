@@ -1,0 +1,238 @@
+body
+{
+    background-color: #191716;
+    color: white; 
+    justify-content: center;
+
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 15px;
+  z-index: 3; /* Set a higher z-index to ensure the nav is above the banner */
+
+}
+
+.nav a {
+      content: '\2022'; /* Unicode character for a bullet point */
+  
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+
+
+.copywrite {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.copywrite a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+p {
+  font-size: 16px;
+  font-family: 'Calibri', sans-serif;
+  text-align: center;
+}
+
+
+.text{
+  width: 30%;
+}
+
+
+.intro .photo img {
+  width: 30%; /* Adjust the percentage as needed */
+  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove any default spacing around the image */
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+
+
+.title{
+  margin-top: 10%;
+  margin-left: 20%;
+  font-family: 'Calibri', sans-serif;
+  font-style: italic;
+}
+
+
+.works {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto; /* This will center the element horizontally */
+  margin-bottom: 2%;
+}
+
+.heading p {
+  margin: 10%;
+  display: inline;
+  font-style: italic;
+}
+
+.interactive-heading p {
+  margin: 20%;
+  display: inline;
+  font-style: italic;
+}
+.caption{
+  width: 100%;
+}
+
+img{
+  width: 40%;
+}
+
+.one{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.two{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+
+.three{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+  
+.four{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.five{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+  
+.six{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+     
+.seven{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  .eight{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+
+    .nine{
+      margin-top: 10%;
+      margin-bottom: 10%;
+      }
+      .ten{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        }
+        .eleven{
+          margin-top: 10%;
+          margin-bottom: 10%;
+          }
+          .twelve{
+            margin-top: 10%;
+            margin-bottom: 10%;
+            }
+            .twelve img{
+              width: 30%;
+            }
+            .thirteen{
+              margin-top: 10%;
+              margin-bottom: 10%;
+            }
+            .gif{
+              margin-top: 10%;
+              margin-bottom: 10%;
+            }
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images */
+  padding: 20px; /* Adjust padding as needed */
+  margin-bottom: 10%;
+}
+
+
+.photo-grid .works{
+  width: 50%;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/1.6;
+
+}
+
+.film {
+  width: 100%; /* Take up the full width of the parent container */
+  
+}
+
+.film .heading p{
+  margin: 17%;
+  display: inline;
+}
+
+video {
+  width: 70%;
+  height: 50%;
+  object-fit: cover; /* Ensure the video covers the entire .film container while maintaining aspect ratio */
+}
+
+.photo-quote p{
+  text-align: left;
+  margin: 0 auto;
+  margin-right: 17%;
+  margin-bottom: 2%;
+  width: 35%;
+}
+
+iframe {
+  width: 100%;
+  height: 60vh; /* Adjust the percentage based on your preference */
+  border: none;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
