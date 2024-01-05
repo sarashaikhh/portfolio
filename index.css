@@ -123,16 +123,23 @@ p {
   text-align: center; /* Center the text content within the div */
 }
 
-/* Your existing styles for the image grid */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.grid-item {
+.grid-container {
   text-align: center;
+}
+
+.grid-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image-link img {

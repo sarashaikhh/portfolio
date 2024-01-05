@@ -103,10 +103,10 @@ p1 {
 
 
 .title{
-  margin-top: 10%;
-  margin-left: 20%;
   font-family: 'Calibri', sans-serif;
   font-style: italic;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .contact {

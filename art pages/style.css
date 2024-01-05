@@ -82,11 +82,12 @@ p {
 
 
 .title{
-  margin-top: 10%;
-  margin-left: 20%;
-  font-family: 'Calibri', sans-serif;
-  font-style: italic;
-}
+    font-family: 'Calibri', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
 
 
 .works {
@@ -107,9 +108,17 @@ p {
   display: inline;
   font-style: italic;
 }
-.caption{
-  width: 100%;
+
+.caption {
+  width: 70%; /* Adjust the width as needed */
+  margin: 0 auto; /* This centers the element horizontally */
 }
+
+.caption p {
+  width: 100%; /* Adjust the width of the paragraphs if needed */
+  text-align: center;
+}
+
 
 img{
   width: 40%;
