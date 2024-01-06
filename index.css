@@ -209,6 +209,7 @@ p {
 .menu {
   display: none;
   position: fixed;
+  background-color: #191716;
   top: 60px; /* Adjusted the top position to leave space for the text */
   right: 0;
   padding: 15px;

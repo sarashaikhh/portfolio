@@ -51,14 +51,14 @@ body
 
 
 
-.copywrite {
+.copyright {
   position: fixed;
   bottom: 0;
   right: 0;
   padding: 15px;
 }
 
-.copywrite a {
+.copyright a {
   color: white;
   text-decoration: none;
   padding: 5px;
@@ -176,8 +176,6 @@ p1 {
 }
 
 
-
-
 @media only screen and (max-width: 767px) {
   /* Adjust styles for iPhones or smaller screens */
   body {
@@ -188,15 +186,14 @@ p1 {
     display: grid;
     grid-template-columns: 1fr 2fr; /* Two columns - adjust as needed */
     gap: 20px; /* Adjust the gap between the columns */
-    width: 300%;
+    width: 100%; /* Change width to 100% to remove extra space */
   }
   
   .photo {
-    width: 70%;
+    width: 200%;
     margin-left: 10%;
     display: grid;
     grid-template-rows: auto; /* Two rows - adjust as needed */
-
   }
   
   .photo img {
@@ -212,12 +209,13 @@ p1 {
     grid-column: span 2; /* Span across both columns */
     padding: 10px;
     margin-left: 3%;
+    width: 80%;
   }
   
   /* Additional styling for the text or any other elements can be added as needed */
-  .title{
+  .title {
     margin-top: 50px;
-    margin-right: 40%;
+    margin-right: 0; /* Change margin-right to 0 to remove extra space */
   }
 
   .nav a {
