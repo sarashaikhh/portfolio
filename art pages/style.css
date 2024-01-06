@@ -92,6 +92,10 @@ p {
   margin-bottom: 2%;
 }
 
+.heading{
+  margin: 3%;
+
+}
 .heading p {
   margin: 10%;
   display: inline;
@@ -382,35 +386,52 @@ iframe {
 
 
 
+@media only screen and (max-width: 767px), (max-device-width: 767px) {
 
-@media only screen and (max-width: 767px)(max-device-width: 767px) {
-
-
-  .nav a {
-    font-size: 10px;
+  .works {
+    width: 100%;
   }
 
-  .bottom-nav a {
-    font-size: 10px;
-  }
-  .copyright a {
-    font-size: 10px;
+  .photo-quote p {
+    width: 90%;
+    margin-bottom: 5%;
   }
 
+  .interactive-quote p {
+    width: 90%;
+  }
 
-.works{
-width: 100%;
-
-.photo-quote p{
-  width: 80%;
-  margin-bottom: 5%;
-}
+  .caption {
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto; /* This centers the element horizontally */
+  }
   
+  .heading{
+    margin: 5%;
+  }
 
-.interactive-quote p{
-  width: 110%;
-}
+  .heading p {
+    margin: 10%;
+    display: inline;
+  }
+  .interactive-heading p {
+    margin: 17%;
+    display: inline;
+  }
+
+  .one img{
+    width: 50%;
+  }
+
+  .two img{
+    width: 50%;
+  }
+  .three img{
+    width: 50%;
+  }
+  .four img{
+    width: 70%;
+  }
 
 
-}
 }
