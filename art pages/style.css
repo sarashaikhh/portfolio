@@ -433,5 +433,11 @@ iframe {
     width: 70%;
   }
 
-
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; /* Adjust the gap between images */
+    padding: 20px; /* Adjust padding as needed */
+    margin-bottom: 10%;
+  }
 }
