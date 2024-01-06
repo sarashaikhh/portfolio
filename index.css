@@ -251,6 +251,7 @@ p {
   .banner .photo img {
     margin-top: 10%;
     width: 90%; /* Set the width of the image */
+    padding-top: 10%;
   }
 
   .description {
@@ -268,4 +269,6 @@ p {
     font-size: 10px;
   }
   
+
+
 }
