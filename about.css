@@ -174,3 +174,50 @@ p1 {
   font-size: 16px;
   margin: 5px 0;
 }
+
+
+
+
+@media only screen and (max-width: 767px) {
+  /* Adjust styles for iPhones or smaller screens */
+  body {
+    font-size: 14px;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns - adjust as needed */
+    gap: 20px; /* Adjust the gap between the columns */
+    width: 300%;
+  }
+  
+  .photo {
+    width: 70%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-rows: auto; /* Two rows - adjust as needed */
+
+  }
+  
+  .photo img {
+    width: 100%; /* Make the image fill its container */
+  }
+  
+  .contact {
+    margin-left: -1%;
+    text-align: right;
+  }
+  
+  .text {
+    grid-column: span 2; /* Span across both columns */
+    padding: 10px;
+    margin-left: 3%;
+  }
+  
+  /* Additional styling for the text or any other elements can be added as needed */
+  .title{
+    margin-top: 50px;
+    margin-right: 40%;
+  }
+  
+}
