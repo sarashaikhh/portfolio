@@ -258,14 +258,14 @@ p {
     margin: 0 auto; /* Center the element horizontally */
   }
   .nav a {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .bottom-nav a {
-    font-size: 12px;
+    font-size: 10px;
   }
-  .copywrite a {
-    font-size: 12px;
+  .copyright a {
+    font-size: 10px;
   }
   
 }
