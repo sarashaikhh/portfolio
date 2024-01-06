@@ -256,12 +256,12 @@ p {
   .banner .photo img {
     margin-top: 10%;
     width: 90%; /* Set the width of the image */
-    display: block; /* Make the image a block element to center it */
-    margin-left: auto; /* Center the image horizontally */
-    margin-right: auto; /* Center the image horizontally */
-    z-index: 1; /* Ensure the image is below the text */
   }
-  
+
+  .description {
+    width: 75%;
+    margin: 0 auto; /* Center the element horizontally */
+  }
 }
 
 /* Media query for screens with a width between 768 and 1024 pixels (typical for tablets) */
