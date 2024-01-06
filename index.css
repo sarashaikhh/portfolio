@@ -16,8 +16,7 @@ body
 }
 
 .nav a {
-      content: '\2022'; /* Unicode character for a bullet point */
-  
+  content: '\2022'; /* Unicode character for a bullet point */
   color: white;
   text-decoration: none;
   padding: 5px;
@@ -40,8 +39,6 @@ body
   margin-right: 10px;
   font-size: 16px;
 }
-
-
 
 
 .copywrite {
@@ -262,20 +259,15 @@ p {
     width: 85%;
     margin: 0 auto; /* Center the element horizontally */
   }
-}
-
-/* Media query for screens with a width between 768 and 1024 pixels (typical for tablets) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Adjust styles for tablets or medium-sized screens */
-  body {
-    font-size: 16px;
+  .nav a {
+    font-size: 12px;
   }
-}
 
-/* Media query for screens with a width greater than 1024 pixels (larger screens) */
-@media only screen and (min-width: 1025px) {
-  /* Adjust styles for larger screens */
-  body {
-    font-size: 18px;
+  .bottom-nav a {
+    font-size: 12px;
   }
+  .copywrite a {
+    font-size: 12px;
+  }
+  
 }
