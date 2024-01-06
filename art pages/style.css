@@ -383,7 +383,7 @@ iframe {
 
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px)(max-device-width: 767px) {
 
 
   .nav a {
@@ -400,5 +400,17 @@ iframe {
 
 .works{
 width: 100%;
+
+.photo-quote p{
+  width: 80%;
+  margin-bottom: 5%;
+}
+  
+
+.interactive-quote p{
+  width: 110%;
+}
+
+
 }
 }
