@@ -76,16 +76,6 @@ p {
 }
 
 
-.intro .photo img {
-  width: 30%; /* Adjust the percentage as needed */
-  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
-  height: auto; /* Maintain the aspect ratio */
-  display: block; /* Remove any default spacing around the image */
-  margin: 0 auto; /* Center the image horizontally within its container */
-}
-
-
-
 .title{
     font-family: 'Calibri', sans-serif;
     font-style: italic;
@@ -161,41 +151,47 @@ margin-bottom: 10%;
 }
      
 .seven{
-  margin-top: 10%;
-  margin-bottom: 10%;
-  }
-  .eight{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    }
+margin-top: 10%;
+margin-bottom: 10%;
+}
 
-    .nine{
-      margin-top: 10%;
-      margin-bottom: 10%;
-      }
-      .ten{
-        margin-top: 10%;
-        margin-bottom: 10%;
-        }
-        .eleven{
-          margin-top: 10%;
-          margin-bottom: 10%;
-          }
-          .twelve{
-            margin-top: 10%;
-            margin-bottom: 10%;
-            }
-            .twelve img{
-              width: 30%;
-            }
-            .thirteen{
-              margin-top: 10%;
-              margin-bottom: 10%;
-            }
-            .gif{
-              margin-top: 10%;
-              margin-bottom: 10%;
-            }
+.eight{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.nine{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.ten{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.eleven{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.twelve{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.twelve img{
+width: 30%;
+}
+
+.thirteen{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.gif{
+margin-top: 10%;
+margin-bottom: 10%;
+}
 
 .photo-grid {
   display: grid;
@@ -235,6 +231,7 @@ video {
 
 .photo-quote p{
   font-size: smaller;
+  font-style: italic;
   text-align: left;
   margin: 0 auto;
   width: 35%;
@@ -242,6 +239,7 @@ video {
 }
 
 .interactive-quote p{
+  font-style: italic;
   font-size: smaller;
   text-align: left;
   margin: 0 auto;
@@ -385,10 +383,22 @@ iframe {
 
 
 
-/* Media query for screens with a maximum width of 767 pixels (typical for iPhones) */
 @media only screen and (max-width: 767px) {
-  /* Adjust styles for iPhones or smaller screens */
-  body {
-    font-size: 14px;
+
+
+  .nav a {
+    font-size: 10px;
   }
+
+  .bottom-nav a {
+    font-size: 10px;
+  }
+  .copyright a {
+    font-size: 10px;
+  }
+
+
+.works{
+width: 100%;
+}
 }
