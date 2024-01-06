@@ -374,3 +374,16 @@ iframe {
 #next-2 {
   right: 30px;
 }
+
+
+
+
+
+
+/* Media query for screens with a maximum width of 767 pixels (typical for iPhones) */
+@media only screen and (max-width: 767px) {
+  /* Adjust styles for iPhones or smaller screens */
+  body {
+    font-size: 14px;
+  }
+}

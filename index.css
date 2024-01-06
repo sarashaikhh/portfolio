@@ -61,7 +61,7 @@ body
 
 
 h1 {
-  font-size: 128px;
+  font-size: 6.5vw;
   font-family: 'Calibri', sans-serif;
   text-align: center;
 }
@@ -70,7 +70,7 @@ h1 {
 
 
 p {
-  font-size: 40px;
+  font-size: 2vw;
   font-family: 'Calibri', sans-serif;
   font-style: italic;
   text-align: center;
@@ -237,7 +237,6 @@ p {
 
   
   .banner h1 {
-    font-size: 40px;
     position: absolute;
     top: 35%;
     left: 50%;
@@ -245,7 +244,6 @@ p {
   }
   
   .banner p {
-    font-size: 15px;
     top: 65%; /* Adjust the vertical position */
 
   }
