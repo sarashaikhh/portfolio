@@ -51,14 +51,14 @@ body
   color: red; /* Replace with the desired hover color */
 }
 
-.copywrite {
+.copyright {
   position: fixed;
   bottom: 0;
   right: 0;
   padding: 15px;
 }
 
-.copywrite a {
+.copyright a {
   color: white;
   text-decoration: none;
   padding: 5px;
@@ -123,25 +123,25 @@ p {
 
 
 
-.photo.guide {
+.photo-guide {
   width: 70%;
   margin-top: 10%; /* Add a 10% bottom margin to create a gap */
   margin: 0 auto; /* Center the element horizontally */
   text-align: center; /* Center the text content within the div */
 }
 
+
+
+
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Updated to auto-fill */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
   gap: 10px;
   padding: 10px;
   margin: 0 auto; /* Center the grid horizontally */
 
 }
 
-.grid-item {
-  text-align: center;
-}
 
 
 .grid-item img {
@@ -154,7 +154,6 @@ p {
   width: 70%;
   height: auto;
   object-fit: cover;
-  border-radius: 0;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -162,30 +161,29 @@ p {
   transform: scale(1.1);
 }
 
-.image-link {
-  display: block;
-  overflow: hidden;
-  border-radius: 0;
+
+
+/* text in photo guide */
+.photo-guide h1 {
+  font-size: 4.3vw;
 }
 
-.image-grid .grid-item:nth-last-child(-n+2) {
-  margin-left: auto;
-  margin-right: auto;
+.photo-guide p {
+  font-size: 18px;
 }
 
-/* Styles for the h1 and p in the specific section */
-.photo.guide h1 {
-  font-size: 40px;
-}
 
-.photo.guide p {
-  font-size: 24px;
-}
+
+
+
+
+
+/* intro text */
 
 
 .description {
   width: 55%;
-  margin: 0 auto; /* Center the element horizontally */
+  margin: 0 auto; 
 }
 
 .description p {
@@ -197,7 +195,7 @@ p {
 
 
 
-/* Add styles for the hamburger menu */
+/* drop down menu */
 .hamburger-menu {
   display: flex;
   flex-direction: column;
@@ -254,7 +252,7 @@ p {
   
   .banner h1 {
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 50%;
 
   }
