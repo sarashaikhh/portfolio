@@ -455,19 +455,6 @@ iframe {
   }
 
 
-  .one img{
-    width: 50%;
-  }
-
-  .two img{
-    width: 50%;
-  }
-  .three img{
-    width: 50%;
-  }
-  .four img{
-    width: 70%;
-  }
 
   .photo-grid {
     display: grid;
