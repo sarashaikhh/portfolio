@@ -4,8 +4,10 @@ body
     background-color: #191716;
     color: white; 
     justify-content: center;
-
 }
+
+
+
 
 /* sara, NYC, email */
 .nav {
@@ -32,6 +34,56 @@ body
 }
 
 
+
+
+
+/* dropdown menu */
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 4;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  background-color: #191716;
+  top: 60px; /* Adjusted the top position to leave space for the text */
+  right: 0;
+  padding: 15px;
+  flex-direction: column;
+  z-index: 3;
+  text-align: right; /* Align the text to the right */
+
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+
+.menu a:hover {
+  color: red; /* Replace with the desired hover color */
+}
+
+/* about, resume */
+
 .bottom-nav {
   position: fixed;
   bottom: 0;
@@ -51,6 +103,9 @@ body
   color: red; /* Replace with the desired hover color */
 }
 
+
+/* copyright */
+
 .copyright {
   position: fixed;
   bottom: 0;
@@ -68,24 +123,7 @@ body
 
 
 
-
-
-h1 {
-  font-size: 8.5vw;
-  font-family: 'Calibri', sans-serif;
-  text-align: center;
-}
-
-
-
-
-p {
-  font-size: 3vw;
-  font-family: 'Calibri', sans-serif;
-  text-align: center;
-}
-
-
+/* banner */
 
 .banner {
   position: relative; /* Set the positioning context for absolute positioning */
@@ -93,6 +131,9 @@ p {
 }
 
 .banner h1 {
+  font-family: "area-normal", sans-serif;
+  text-transform: uppercase;
+  font-size: 8.5vw;
   position: absolute;
   top: 35%;
   left: 50%;
@@ -102,12 +143,15 @@ p {
 }
 
 .banner p {
+  font-family: "area-normal", sans-serif;
   font-style: italic;
-  position: absolute; /* Position the text elements absolutely within the banner */
-  top: 65%; /* Adjust the vertical position */
-  left: 50%; /* Center the text horizontally */
-  transform: translate(-50%, -50%); /* Center the text precisely */
-  z-index: 2; /* Ensure the text is above the image */
+  position: absolute;
+  font-size: 3vw;
+  text-align: center;
+  top: 65%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 2; 
 }
 
 .banner .photo img {
@@ -121,6 +165,27 @@ p {
 
 
 
+/* intro text */
+
+
+.description {
+  width: 55%;
+  margin: 0 auto; 
+}
+
+.description p {
+  font-size: 20px; /* Adjust the font size as needed */
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+/* menu for art */
+
 
 .photo-guide {
   width: 90%;
@@ -133,9 +198,13 @@ p {
 
 
 .photo-guide p{
+  font-family: "area-normal", sans-serif;
   font-style: italic;
 }
 
+.photo-guide h1{
+  font-family: "area-normal", sans-serif;
+}
 
 
 .image-grid {
@@ -144,13 +213,14 @@ p {
   gap: 10px;
   padding: 10px;
   margin: 0 auto; /* Center the grid horizontally */
-
+  text-align: center;
 }
 
 
 
 .grid-item img {
   display: block;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -183,68 +253,6 @@ p {
 
 
 
-/* intro text */
-
-
-.description {
-  width: 55%;
-  margin: 0 auto; 
-}
-
-.description p {
-  font-size: 16px; /* Adjust the font size as needed */
-  padding-top: 5%;
-  padding-bottom: 5%;
-
-}
-
-
-
-/* drop down menu */
-.hamburger-menu {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 10px;
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  z-index: 4;
-}
-
-
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 5px 0;
-}
-
-.menu {
-  display: none;
-  position: fixed;
-  background-color: #191716;
-  top: 60px; /* Adjusted the top position to leave space for the text */
-  right: 0;
-  padding: 15px;
-  flex-direction: column;
-  z-index: 3;
-  text-align: right; /* Align the text to the right */
-
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-  font-size: 16px;
-  margin: 5px 0;
-}
-
-.menu a:hover {
-  color: red; /* Replace with the desired hover color */
-}
 
 
 

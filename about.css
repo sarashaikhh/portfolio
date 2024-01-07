@@ -34,7 +34,6 @@ body
 
 
 .title{
-  font-family: 'Calibri', sans-serif;
   font-style: italic;
   text-align: center;
   margin-top: 50px;
@@ -90,7 +89,6 @@ body
   color: white;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Calibri', sans-serif;
   margin-bottom: 2px; /* Add space between links */
 }
 
@@ -103,13 +101,11 @@ body
 
 p {
   font-size: 16px;
-  font-family: 'Calibri', sans-serif;
   text-align: left; /* Align text to the left */
 }
 
 p1 {
   font-size: 12px;
-  font-family: 'Calibri', sans-serif;
   font-style: italic;
   text-align: left; /* Align text to the left */
 }
