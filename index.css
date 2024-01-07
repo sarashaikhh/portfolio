@@ -122,12 +122,13 @@ p {
 
 
 
-
 .photo-guide {
-  width: 70%;
-  margin-top: 10%; /* Add a 10% bottom margin to create a gap */
-  margin: 0 auto; /* Center the element horizontally */
-  text-align: center; /* Center the text content within the div */
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 10%; /* Adjust the bottom margin as needed */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 
@@ -135,7 +136,7 @@ p {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the minmax values as needed */
   gap: 10px;
   padding: 10px;
   margin: 0 auto; /* Center the grid horizontally */
