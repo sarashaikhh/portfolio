@@ -6,23 +6,30 @@ body
 
 }
 
+/* sara, NYC, email */
 .nav {
+  display: flex;
+  align-items: center;
   position: fixed;
   top: 0;
   padding: 15px;
-  z-index: 3; /* Set a higher z-index to ensure the nav is above the banner */
-
+  z-index: 3;
 }
 
 .nav a {
-      content: '\2022'; /* Unicode character for a bullet point */
-  
+  content: '\2022';
   color: white;
   text-decoration: none;
   padding: 5px;
   margin: 0 10px;
   font-size: 16px;
+  transition: color 0.3s;
 }
+
+.top-links:hover a {
+  color: red; /* Replace with the desired hover color */
+}
+
 
 
 
@@ -174,6 +181,11 @@ p1 {
   font-size: 16px;
   margin: 5px 0;
 }
+
+.menu a:hover {
+  color: red; /* Replace with the desired hover color */
+}
+
 
 
 @media only screen and (max-width: 767px) {

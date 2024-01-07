@@ -7,63 +7,6 @@ body
 }
 
 
-
-/* sara, NYC, email */
-.nav {
-  position: fixed;
-  top: 0;
-  padding: 15px;
-  z-index: 3; /* Set a higher z-index to ensure the nav is above the banner */
-
-}
-
-.nav a {
-      content: '\2022'; /* Unicode character for a bullet point */
-  
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-  margin: 0 10px;
-  font-size: 16px;
-}
-
-/* about, resume */
-
-.bottom-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 15px;
-}
-
-.bottom-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-  font-size: 16px;
-}
-
-
-
-/* copyright */
-
-.copyright {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  padding: 15px;
-}
-
-.copyright a {
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-  font-size: 16px;
-}
-
-
 p {
   font-size: 16px;
   font-family: 'Calibri', sans-serif;
@@ -71,198 +14,36 @@ p {
 }
 
 
-.text{
-  width: 30%;
+
+/* sara, NYC, email */
+.nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 15px;
+  z-index: 3;
 }
 
-
-.title{
-    font-family: 'Calibri', sans-serif;
-    font-style: italic;
-    text-align: center;
-    margin-top: 10%;
-  }
-  
-
-
-.works {
-  width: 70%;
-  text-align: center;
-  margin: 0 auto; /* This will center the element horizontally */
-  margin-bottom: 2%;
+.nav a {
+  content: '\2022';
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: color 0.3s;
 }
 
-.heading{
-  margin: 3%;
-
-}
-.heading p {
-  margin: 10%;
-  display: inline;
-  font-style: italic;
-}
-
-.interactive-heading p {
-  margin: 20%;
-  display: inline;
-  font-style: italic;
-}
-
-.caption {
-  width: 70%; /* Adjust the width as needed */
-  margin: 0 auto; /* This centers the element horizontally */
-}
-
-.caption p {
-  width: 100%; /* Adjust the width of the paragraphs if needed */
-  text-align: center;
-}
-
-
-img{
-  width: 40%;
-}
-
-.one{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.two{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-
-.three{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-  
-.four{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.five{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-  
-.six{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-     
-.seven{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.eight{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.nine{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.ten{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-.eleven{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.twelve{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.twelve img{
-width: 30%;
-}
-
-.thirteen{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.gif{
-margin-top: 10%;
-margin-bottom: 10%;
-}
-
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px; /* Adjust the gap between images */
-  padding: 20px; /* Adjust padding as needed */
-  margin-bottom: 10%;
-}
-
-
-.photo-grid .works{
-  width: 50%;
-}
-
-.grid-item img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 3/1.6;
-
-}
-
-.film {
-  width: 100%; /* Take up the full width of the parent container */
-  
-}
-
-.film .heading p{
-  margin: 17%;
-  display: inline;
-}
-
-video {
-  width: 70%;
-  height: 50%;
-  object-fit: cover; /* Ensure the video covers the entire .film container while maintaining aspect ratio */
-}
-
-.photo-quote p{
-  font-size: smaller;
-  font-style: italic;
-  text-align: left;
-  margin: 0 auto;
-  width: 35%;
-  margin-bottom: 5%;
-}
-
-.interactive-quote p{
-  font-style: italic;
-  font-size: smaller;
-  text-align: left;
-  margin: 0 auto;
-  width: 30%;
-}
-
-iframe {
-  width: 100%;
-  height: 60vh; /* Adjust the percentage based on your preference */
-  border: none;
-  display: block;
-  margin: auto;
-  padding-top: 10px;
+.top-links:hover a {
+  color: red; /* Replace with the desired hover color */
 }
 
 
 
 
-/* Add styles for the hamburger menu */
+
+/* dropdown menu */
 .hamburger-menu {
   display: flex;
   flex-direction: column;
@@ -302,6 +83,172 @@ iframe {
   margin: 5px 0;
 }
 
+
+.menu a:hover {
+  color: red; /* Replace with the desired hover color */
+}
+
+/* about, resume */
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.bottom-nav a:hover {
+  color: red; /* Replace with the desired hover color */
+}
+
+
+/* copyright */
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.copyright a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+/* works */
+
+.title{
+  font-family: 'Calibri', sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10%;
+}
+.works {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto; /* This will center the element horizontally */
+  margin-bottom: 2%;
+}
+
+
+
+.heading{
+  margin: 1%;
+}
+.heading p {
+  font-style: italic;
+}
+
+
+
+.caption {
+  width: 70%; /* Adjust the width as needed */
+  margin: 0 auto; /* This centers the element horizontally */
+}
+
+.caption p {
+  width: 100%; /* Adjust the width of the paragraphs if needed */
+  font-size: smaller;
+}
+
+
+img{
+  width: 40%;
+}
+
+
+
+
+
+
+
+/* photography */
+
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images */
+  padding: 20px; /* Adjust padding as needed */
+  margin-bottom: 10%;
+}
+
+
+.photo-grid .works{
+  width: 50%;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/1.6;
+
+}
+
+.film {
+  width: 100%; 
+}
+
+.film .heading p{
+  margin: 17%;
+  display: inline;
+}
+
+video {
+  width: 70%;
+  height: 50%;
+  object-fit: cover; 
+}
+
+
+
+
+
+/* interaction */
+
+.interactive-quote p{
+  font-style: italic;
+  font-size: smaller;
+  text-align: left;
+  margin: 0 auto;
+  width: 30%;
+}
+
+iframe {
+  width: 100%;
+  height: 60vh; /* Adjust the percentage based on your preference */
+  border: none;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
+
+
+
+/* typography */
+
+/* music club */
+.music-club img{
+    height: 200px; /* Set a specific height value */
+    width: auto;  /* Maintain the aspect ratio */
+  }
+.music-club {
+  font-style: italic;
+}
 
 
 /* slideshow */
@@ -349,8 +296,8 @@ iframe {
   right: 30px;
 }
 
+/* 2nd slideshow */
 
-/* Additional styles for the second slideshow */
 #slider-container-2 {
   position: relative;
   margin: auto;
@@ -385,6 +332,103 @@ iframe {
 
 
 
+/* general art */
+
+
+.one{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .two{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  
+  .three{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+    
+  .four{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .five{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+    
+  .six{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+       
+  .seven{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .eight{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .nine{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .ten{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  .eleven{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .twelve{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .twelve img{
+  width: 30%;
+  }
+  
+  .thirteen{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+  .gif{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* phone media queries */
 
 
 @media only screen and (max-width: 767px), (max-device-width: 767px) {
@@ -393,19 +437,13 @@ iframe {
     width: 100%;
   }
 
-  .photo-quote p {
-    width: 90%;
-    margin-bottom: 5%;
-  }
-
   .interactive-quote p {
     width: 90%;
   }
 
   .caption {
-    width: 90%; /* Adjust the width as needed */
-    margin: 0 auto; /* This centers the element horizontally */
-  }
+    width: 90%; 
+    margin: 0 auto;
   
   .heading{
     margin: 5%;
@@ -415,18 +453,12 @@ iframe {
     margin: 10%;
     display: inline;
   }
-  .interactive-heading p {
-    margin: 17%;
-    display: inline;
-  }
+
 
   .one img{
     width: 50%;
   }
 
-  .one1 img{
-    width: 70%;
-  }
   .two img{
     width: 50%;
   }
@@ -440,8 +472,8 @@ iframe {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px; /* Adjust the gap between images */
-    padding: 20px; /* Adjust padding as needed */
+    grid-gap: 10px; 
+    padding: 20px; 
     margin-bottom: 10%;
   }
 
@@ -449,5 +481,8 @@ iframe {
 padding-top: 10%;
 }
 
+#slider-container {
+  width: 200%;
 
+}}
 }
