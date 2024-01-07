@@ -8,6 +8,7 @@ body
 
 
 p {
+  font-family: "area-normal", sans-serif;
   font-size: 16px;
   text-align: center;
 }
@@ -16,6 +17,7 @@ p {
 
 /* sara, NYC, email */
 .nav {
+  font-family: "area-normal", sans-serif;
   display: flex;
   align-items: center;
   position: fixed;
@@ -44,6 +46,7 @@ p {
 
 /* dropdown menu */
 .hamburger-menu {
+  font-family: "area-normal", sans-serif;
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -62,6 +65,7 @@ p {
 }
 
 .menu {
+  font-family: "area-normal", sans-serif;
   display: none;
   position: fixed;
   background-color: #191716;
@@ -90,6 +94,7 @@ p {
 /* about, resume */
 
 .bottom-nav {
+  font-family: "area-normal", sans-serif;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -112,6 +117,7 @@ p {
 /* copyright */
 
 .copyright {
+  font-family: "area-normal", sans-serif;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -130,6 +136,7 @@ p {
 /* works */
 
 .title{
+  font-family: "area-normal", sans-serif;
   font-style: italic;
   text-align: center;
   margin-top: 10%;
@@ -149,6 +156,7 @@ p {
   margin: 1%;
 }
 .heading p {
+  font-family: "area-normal", sans-serif;
   font-style: italic;
 }
 
@@ -160,6 +168,7 @@ p {
 }
 
 .caption p {
+  font-family: "area-normal", sans-serif;
   width: 100%; /* Adjust the width of the paragraphs if needed */
   font-size: smaller;
 }
@@ -203,6 +212,7 @@ img{
 }
 
 .film .heading p{
+  font-family: "area-normal", sans-serif;
   margin: 17%;
   display: inline;
 }
@@ -220,6 +230,7 @@ video {
 /* interaction */
 
 .interactive-quote p{
+  font-family: "area-normal", sans-serif;
   font-style: italic;
   font-size: smaller;
   text-align: left;
@@ -436,6 +447,10 @@ iframe {
     width: 100%;
   }
 
+  .img{
+    width: 70%;
+  }
+
   .interactive-quote p {
     width: 90%;
   }
@@ -469,7 +484,7 @@ font-size: 5vw;
 }
 
 #slider-container {
-  width: 200%;
+  width: 60%;
 
 }
 
