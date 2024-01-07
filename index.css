@@ -275,5 +275,15 @@ p {
     margin: 0 auto; /* Center the element horizontally */
   }
 
+  .nav a {
+    font-size: 10px;
+  }
+
+  .bottom-nav a {
+    font-size: 10px;
+  }
+  .copyright a {
+    font-size: 10px;
+  }
 
 }

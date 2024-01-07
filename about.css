@@ -197,9 +197,6 @@ p1 {
 
 @media only screen and (max-width: 767px) {
   /* Adjust styles for iPhones or smaller screens */
-  body {
-    font-size: 14px;
-  }
 
   .intro {
     display: grid;
@@ -231,7 +228,6 @@ p1 {
     width: 80%;
   }
   
-  /* Additional styling for the text or any other elements can be added as needed */
   .title {
     margin-top: 50px;
     margin-right: 0; /* Change margin-right to 0 to remove extra space */

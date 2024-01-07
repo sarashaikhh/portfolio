@@ -444,6 +444,7 @@ iframe {
   .caption {
     width: 90%; 
     margin: 0 auto;
+  }
   
   .heading{
     margin: 5%;
@@ -484,5 +485,16 @@ padding-top: 10%;
 #slider-container {
   width: 200%;
 
-}}
 }
+
+.nav a {
+  font-size: 10px;
+}
+
+.bottom-nav a {
+  font-size: 10px;
+}
+.copyright a {
+  font-size: 10px;
+}
+  }
