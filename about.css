@@ -228,10 +228,7 @@ p1 {
     width: 80%;
   }
   
-  .title {
-    margin-top: 50px;
-    margin-right: 0; /* Change margin-right to 0 to remove extra space */
-  }
+
 
   .nav a {
     font-size: 10px;
