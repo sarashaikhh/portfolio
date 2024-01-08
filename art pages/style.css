@@ -401,6 +401,7 @@ iframe {
 
   .caption {
     margin: 0 auto;
+    text-align: center;
   }
   
   .heading{
